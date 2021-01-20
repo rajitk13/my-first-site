@@ -202,8 +202,9 @@ div.about{
     font-size: 80px;
     color:white;
     background-color: transparent;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
     padding: 12px 16px;
+    outline: none;
 }
 
 .insta{
@@ -212,25 +213,25 @@ div.about{
     padding: 12px 16px;
     display: inline-block;
     background-color: transparent;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
-
-
+    border-radius: 10px;
+    outline: none;
 }
-
 .fb{
     font-size:80px;
      color:rgb(0, 110, 255);
      padding: 12px 16px;
      background-color: transparent;
-     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+     border-radius: 10px;
+     outline: none;
 }
 
 .gg{
     font-size:80px;
     color:rgb(18, 252, 18);
     background-color: transparent;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
     padding: 12px 16px;
+    border-radius: 10px;
+    outline: none;
 }
 
 .git:hover{
@@ -273,4 +274,70 @@ div.about{
     transform: translateY(4px);
 }
 
-.
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    margin-left:30px;
+    resize: vertical;
+
+  }
+  
+  
+  input[type=submit] {
+    background-color: transparent;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+ 
+  input[type=submit]:hover {
+    background-color: transparent;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+  }
+
+  .form{
+background-color: transparent;
+margin-left:30px;
+border-radius: 30px;
+}
+
+  .form:active{
+    background-color: #1d1d1f;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    outline:none;
+  }
+
+  .sec3{
+    border-bottom:#029797 solid 5px;
+    width:100%;
+  margin-top:10px;
+  }
+
+  .container h3{
+    color:grey;
+    font-size:40px;
+    text-align:left;
+  }
+
+  .container form{
+      color:white;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size:30px;
+  }
+  
+
+  
